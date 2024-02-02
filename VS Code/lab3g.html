@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Combinators Example</title>
+  <style>
+    body p {
+      color: blue;
+    }
+
+    body > div {
+      background-color: lightgray;
+    }
+
+    h2  + p {
+      font-style: italic;
+    }
+
+    h2 ~ p {
+      border: 1px solid black;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <p>This is a paragraph inside a div.</p>
+    <h2>Subtitle</h2>
+    <p>This paragraph is a sibling of the h2 element.</p>
+    <p>This is another sibling paragraph.</p>
+  </div>
+    <p>This is a paragraph outside the div.</p>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Divisions</title>
+  <style>
+.container {
+  background-color:cornflowerblue;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.containers {
+  background-color:aqua;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #999;
+}
+
+.box {
+  background-color:antiquewhite;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #777;
+  outline: 2px solid #aaa;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px  0 0 0 ;
+  border-top: 1px solid #666;
+}
+
+li {
+  margin: 5px 0;
+  padding: 5px;
+  border-bottom: 1px solid #555;
+}
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 style="text-shadow: 2px 4px 4px violet;">Main Container</h1>
+    
+    <div class="containers">
+      <p style="text-decoration: line-through;">This is an inner container.</p>
+
+      <div class="box">
+        <p style="text-align: center;">Box Content</p>
+      </div>
+
+      <ul>
+        <li style="text-shadow:2px 2px 2px violet;">List Item 1</li>
+        <li style="text-shadow:3px 3px 3px green">List Item 2</li>
+        <li style="text-shadow:3px 3px 3px yellow">List Item 3</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
