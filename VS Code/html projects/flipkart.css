@@ -1,0 +1,76 @@
+
+.Navbar{
+    display:flex;
+    
+}
+.Search-bar{
+width: 700px;
+height: 30px;
+margin-left: 25px;
+margin-top: 9px;
+border-radius: 6px;
+border: none;
+border-width: 1px;
+font-size: 18px ;
+background-color:rgb(232, 242, 250) ;
+}
+.Logo{
+    margin-top: 6px;
+    margin-left: 12px;
+}
+.button{
+    margin-top: 9px;
+    margin-left: 30px;
+    height: 32px;
+    border-radius: 6px;
+    border-color: white;
+    border-width: 0px;
+    width: 134px;
+    font-family:arial;
+    font-size: 17px;
+    background-color: white;
+    transition: background-color 0.27s,border-color 0.3s; 
+}
+.button:hover{
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(163, 162, 162) ;
+    border-width: 0.5px;
+    width: 114px;
+}
+.cart{
+    margin-top: 9px;
+    margin-left: 33px;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 17px;
+    border-color: white;
+    border-width: 0px;
+    background-color: white;
+    font-family: arial;
+
+}
+.sell{
+    margin-top: 9px;
+    margin-left: 33px;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 17px;
+    border-color: white;
+    border-width: 0px;
+    background-color: white;
+    font-family: arial;
+}
+.y{
+    margin-left: 33px;
+    margin-top: 9px;
+    height:32px ;
+    background-color: white;
+    border-width: 0px;
+    transition: background-color 0.3s;
+    margin-right: 2px;
+    margin-right: 12px;
+    
+}
+.y:hover{
+    background-color:rgb(241, 241, 241) ;
+}
