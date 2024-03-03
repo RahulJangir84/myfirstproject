@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+</head>
+<body>
+
+    <form id="frm1">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" ><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName"><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age"><br>
+
+        <label for="mobileNumber">Mobile Number:</label>
+        <input type="tel" id="mobileNumber"><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country"><br>
+
+        <button type="button" onclick="showValues()">Submit</button>
+    </form>
+
+    <p id="output"></p>
+
+    <script>
+        function showValues() {
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+            var age = document.getElementById("age").value;
+            var mobileNumber = document.getElementById("mobileNumber").value;
+            var country = document.getElementById("country").value;
+
+            var outputElement = document.getElementById("output");
+            outputElement.innerHTML = "First Name: " + firstName + "<br>" +
+                                      "Last Name: " + lastName + "<br>" +
+                                      "Age: " + age + "<br>" +
+                                      "Mobile Number: " + mobileNumber + "<br>" +
+                                      "Country: " + country;
+        }
+    </script>
+
+</body>
+</html>

@@ -113,7 +113,20 @@ border-radius: 12px;
 <div class="content1"> Explore the most desirable luxury SUVs, with our Range Rover, Discovery, and Defender models. Find your perfect vehicle today.</div>
 </div>
 <div class="side">
-  <input type="text" placeholder="User" style="border: none; margin-top: 16px;margin-left: 8px; width: 115px;border-radius: 4px; margin-right: 12px;">
+  <input type="text" id="inputText" placeholder="Enter your text" style="width: 95px; margin-top: 12px; margin-left: 10px;border: none; border-radius: 4px;" >
+  <br>
+  <button onclick="showText()" style="margin-left: 10px;border: none; margin-top: 4px;">Show Text</button>
+  <p id="outputText"></p>
+
+  <script>
+    function showText() {
+      const text = document.getElementById('inputText').value;
+
+      const paragraph = document.getElementById('outputText');
+
+      paragraph.textContent = text;
+    }
+  </script>
 <input type="password" placeholder="Password" style="border: none; width:115px; margin-left: 8px; margin-top: 25px;border-radius: 4px;">
 <button style="margin-top: 19px; margin-left: 12px;">Login </button>
 <button>Cancel</button>

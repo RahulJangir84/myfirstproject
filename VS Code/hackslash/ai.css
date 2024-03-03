@@ -1,0 +1,197 @@
+body{
+    background-image: url(https://blogs.microsoft.com/wp-content/uploads/prod/2023/06/OMB-AI-Blog-Image_06.08.23-1024x576.jpg);
+    background-size: contain; 
+    backdrop-filter: blur(5px);
+    
+}
+
+
+.head{
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    font-family:'mystyle';
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1.6rem;
+}
+.heading{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-color:rgb(180, 159, 255); */
+    font-weight: 500;
+    color: cornflowerblue;
+    
+}
+.button{
+    /* background-color: rgb(163, 187, 233) ;     */
+    border-radius: 1.8rem;
+}
+.button1{
+    
+    margin-left: 15rem;
+    border:none;
+    background-color:lightcyan;
+    font-size: 1.2rem;
+    transition: background-color 0.2s;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    padding-bottom: 0.4rem;
+    padding-right:0.6rem ;
+    border-radius: 0.8rem;
+    
+    
+}
+.button1:hover{
+    background-color: rgb(139, 160, 198);
+    border-radius: 0.8rem;
+    cursor: pointer;
+    
+}
+.button2{
+   
+    margin-left: 14rem;
+    border:none;
+    background-color:lightcyan;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.2s;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    padding-bottom: 0.4rem;
+    padding-right:0.6rem ;
+    border-radius: 0.8rem;
+}
+.button2:hover{
+    background-color: rgb(139, 160, 198);
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.button3{
+    
+    margin-left: 15rem;
+    border:none;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.2s;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    padding-bottom: 0.4rem;
+    padding-right:0.6rem ;
+    border-radius: 0.8rem;
+    background-color:lightcyan;
+}
+.button3:hover{
+    background-color: rgb(139, 160, 198);
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.button4{
+   
+    margin-left: 15rem;
+    border:none;
+    background-color:lightcyan ;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.2s;
+    padding-top: 0.4rem;
+    padding-left: 0.6rem;
+    padding-bottom: 0.4rem;
+    padding-right:0.6rem ;
+    border-radius: 0.8rem;
+}
+.button4:hover{
+    background-color: rgb(139, 160, 198);
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.photo1{
+    width: 28rem;
+    margin-top: 3rem;
+    border-radius: 0.45rem;
+    margin-left: 15rem;
+    height: 16rem;
+    border: solid 2px;
+    border-color: aliceblue;
+
+}
+.register{
+    font-size: 1.5rem;
+    margin-left: 40rem;
+    margin-right: 42rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    background-color: rgb(208, 248, 253);
+    border-radius: 1.5rem;
+    transition: 0.4s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@font-face {
+    font-family: 'mystyle';
+    src: url('./roboto.ttf');
+}
+.register:hover{
+    cursor: pointer;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem;
+    color: rgba(0,0,0,0.4);
+}
+.photo2{
+    width: 28rem;
+    margin-top: 3rem;
+    border-radius: 0.45rem;
+    margin-left: 6rem;
+    border: solid 2px;
+    border-color: aliceblue;
+}
+.first{
+    font-size: 1.5rem;
+    margin-left: 24rem;
+    color: aliceblue;
+}
+.second{
+    font-size: 1.6rem;
+    margin-left: 24.5rem;
+    color: aliceblue;
+}
+.line{
+    display: flex;
+}
+.content1{
+    width: 22rem;
+    font-size: 1.3rem;
+    margin-left: 18rem;
+    color:rgb(250, 247, 234);
+}
+.desc{
+    display: flex;
+}
+.content2{
+    width: 22rem;
+    font-size: 1.3rem;
+    margin-left: 13.5rem;
+    color:rgb(250, 247, 234) ;
+}
+.bio1{
+    margin-left: 18rem;
+    font-size: 0.9rem;
+}
+.last{
+    display: flex;
+    background-color: rgb(198, 197, 197);
+}
+.bio2{
+    margin-left:8rem ;
+    font-size: 0.9rem;
+
+}
+.bio3{
+    margin-left: 8rem;
+    font-size: 0.9rem;
+}

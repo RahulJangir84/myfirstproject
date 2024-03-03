@@ -1,0 +1,237 @@
+.button{
+    background-color:rgb(241, 241, 241) ;
+    display: flex;
+}
+.button1{
+    padding:0.3rem;
+    border: none;
+    background-color: rgb(241, 241, 241) ;
+    font-size: 1.2rem;
+    margin-left: 15rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.2s;
+    
+}
+.button1:hover{
+    background-color: rgb(217, 214, 214);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.button2{
+    padding:0.5rem;
+    border: none;
+    background-color: rgb(241, 241, 241) ;
+    font-size: 1.2rem;
+    margin-left: 13rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.2s;
+}
+.button2:hover{
+    background-color: rgb(217, 214, 214);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.button3{
+    padding:0.5rem;
+    border: none;
+    background-color: rgb(241, 241, 241) ;
+    font-size: 1.2rem;
+    margin-left: 13rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.2s;
+}
+.button3:hover{
+    background-color: rgb(217, 214, 214);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.button4{
+    padding:0.5rem;
+    border: none;
+    background-color: rgb(241, 241, 241) ;
+    font-size: 1.2rem;
+    margin-left: 13rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.2s;
+    margin-top: 0rem;
+}
+.button4:hover{
+    background-color: rgb(217, 214, 214);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.line{
+    font-size: 1.5rem;
+    margin-top: 0.75rem;
+    margin-left: 16.5rem;
+    margin-bottom: 1rem;
+    font-family:'mystyle' ;
+}
+@font-face {
+    font-family: 'mystyle';
+    src: url('./roboto.ttf');
+}
+
+.hyper{
+   margin-left: 3rem;
+    width: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.heading2{
+    display: flex;
+}
+.first{
+    background-color: white;
+    color: rgb(68, 68, 255);
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+.first:hover{
+    cursor: pointer;
+}
+.second{
+    background-color: white;
+    color: rgb(134, 134, 247);
+    border: none;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+.second:hover{
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+.third{
+    background-color: white;
+    color:rgb(134, 134, 247);
+    border: none;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+.third:hover{
+    color: blue;
+    cursor: pointer;
+}
+.devops{
+    
+    color: aliceblue;
+    background-image: url(https://t3.ftcdn.net/jpg/05/00/82/52/240_F_500825217_ABpnBjVwRRxYkDmkeG1mB9lsejJm93H7.jpg);
+    background-size: contain;
+    width: 90rem;
+    margin-left: 2.4rem;
+    background-repeat: no-repeat;
+    height: 35rem;
+}
+.dev{
+    margin-left: 38rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 7rem;
+    font-size: 3.5rem;
+}
+.dev1{
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-left: 16rem;
+}
+.content{
+    border: none;
+    background-color: rgb(126, 126, 249);
+    margin-left: 39.2rem;
+    margin-top: 5rem;
+    padding-top: 0.8rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding-bottom: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 0.4rem;
+}
+.content:hover{
+    background-color:rgb(110, 110, 250) ;
+    cursor: pointer;
+}
+.head{
+    font-size: 2.5rem;
+    margin-top: 0rem;
+    margin-left: 8rem;
+    font-family:cursive;
+    padding-bottom: 2rem;
+    border-bottom: 4px solid orange;
+   
+}
+.head1{
+    margin-left: 10rem;
+    font-size: 1.4rem;
+    width: 42rem;
+    font-family: serif;
+   font-style: italic;
+   padding-top: 3rem;
+    
+}
+.FIRST{
+    display: flex;
+}
+.image{
+    margin-left: 5rem;
+    width: 50rem;
+    
+}
+.work{
+    font-size: 2.5rem;
+    margin-top: 0rem;
+    margin-left: 8rem;
+    font-family:cursive;
+    padding-bottom: 2rem;
+    border-bottom: 4px solid orange;  
+
+}
+.SECOND{
+    display: flex;
+}
+.image1{
+   margin-left: 10rem;
+width: 35rem;
+margin-top: 3rem;
+}
+.head2{
+    margin-left: 8rem;
+    font-size: 1.4rem;
+    width: 35rem;
+    font-family: serif;
+   font-style: italic;
+   padding-top: 4rem;
+   
+}
+.bottom{
+    background-color: rgb(238, 222, 202);
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.bottom1{
+    font-size: 1.05rem;
+    margin-left: 3rem;
+}
+.bottom2{
+    font-size: 1.05rem;
+    margin-left: 3rem;
+}
+.bottom3{
+    font-size: 1.05rem;
+    margin-left: 3rem;
+}
+.bottom4{
+    font-size: 1.05rem;
+    margin-left: 3rem;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+

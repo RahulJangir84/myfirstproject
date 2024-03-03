@@ -16,7 +16,7 @@ background-color:rgb(232, 242, 250) ;
 }
 .Logo{
     margin-top: 6px;
-    margin-left: 12px;
+    margin-left: 26px;
 }
 .button{
     margin-top: 9px;
@@ -25,21 +25,21 @@ background-color:rgb(232, 242, 250) ;
     border-radius: 6px;
     border-color: white;
     border-width: 0px;
-    width: 134px;
+    width: 150px;
     font-family:arial;
     font-size: 17px;
     background-color: white;
-    transition: background-color 0.27s,border-color 0.3s; 
+    transition: background-color 0.3s,border-color 0.3s; 
 }
 .button:hover{
     background-color: rgb(241, 241, 241);
     border-color: rgb(163, 162, 162) ;
     border-width: 0.5px;
-    width: 114px;
+    width: 150px;
 }
 .cart{
     margin-top: 9px;
-    margin-left: 33px;
+    margin-left: 37px;
     height: 32px;
     border-radius: 6px;
     font-size: 17px;
@@ -51,7 +51,7 @@ background-color:rgb(232, 242, 250) ;
 }
 .sell{
     margin-top: 9px;
-    margin-left: 33px;
+    margin-left: 40px;
     height: 32px;
     border-radius: 6px;
     font-size: 17px;
@@ -67,10 +67,101 @@ background-color:rgb(232, 242, 250) ;
     background-color: white;
     border-width: 0px;
     transition: background-color 0.3s;
-    margin-right: 2px;
-    margin-right: 12px;
     
 }
 .y:hover{
     background-color:rgb(241, 241, 241) ;
+
+}
+.a{
+    display: flex;
+}
+.b{
+    display: flex;
+}
+.grocery:hover{
+cursor: pointer;
+}
+.mobiles:hover{
+    cursor: pointer;
+}
+.appliances:hover{
+    cursor: pointer;
+}
+.travels:hover{
+    cursor: pointer;
+}
+.button1{
+    margin-left: 64px;
+    background-color: white;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.button1:hover{
+    color: rgb(102, 102, 254);
+}
+.electronics{
+    margin-left: 55px;
+    background-color: white;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+.electronics:hover{
+    color:rgb(102, 102, 254) ;
+}
+.home{
+    font-weight: bold;
+    margin-left: 36px;
+    transition: 0.2;
+    font-size: 16px;
+    cursor: pointer;
+}
+.home:hover{
+    color:rgb(102, 102, 254) ;
+}
+.appliances{
+    font-weight: bold;
+    margin-left: 50px;
+}
+.travels{
+    font-weight:bold ;
+    margin-left: 104px;
+}
+.wheel{
+    font-weight: bold;
+    margin-left:  87px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.wheel:hover{
+    color:rgb(102, 102, 254) ;
+}
+.container{
+    margin-top: 48px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 800px;
+}
+
+.slider{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.black{
+    width: 1600px;
+}
+.photos{
+    display: flex;
+}
+.text{
+    display: flex;
 }

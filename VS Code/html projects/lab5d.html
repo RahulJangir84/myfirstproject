@@ -1,0 +1,87 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case Example</title>
+</head>
+<body>
+
+    <h2>Day of the Week</h2>
+    <p id="dayOutput"></p>
+
+    <script>
+        let dayOfWeek = 3;
+        let dayOutputElement = document.getElementById("dayOutput");
+        let dayName;
+
+        switch (dayOfWeek) {
+            case 1:
+                dayName = "Monday";
+                break;
+            case 2:
+                dayName = "Tuesday";
+                break;
+            case 3:
+                dayName = "Wednesday";
+                break;
+            case 4:
+                dayName = "Thursday";
+                break;
+            case 5:
+                dayName = "Friday";
+                break;
+            case 6:
+                dayName = "Saturday";
+                break;
+            case 7:
+                dayName = "Sunday";
+                break;
+            default:
+                dayName = "Invalid day";
+        }
+
+        dayOutputElement.textContent = `Today is ${dayName}.`;
+    </script>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping Examples</title>
+</head>
+<body>
+
+    <h2>For Loop Example</h2>
+    <ul id="forLoopList"></ul>
+
+    <h2>While Loop Example</h2>
+    <ul id="whileLoopList"></ul>
+
+    <script>
+        
+        let forLoopListElement = document.getElementById("forLoopList");
+
+        for (let i = 1; i <= 5; i++) {
+            let listItem = document.createElement("li");
+            listItem.textContent = `Item ${i}`;
+            forLoopListElement.appendChild(listItem);
+        }
+
+        
+        let whileLoopListElement = document.getElementById("whileLoopList");
+        let j = 1;
+
+        while (j <= 5) {
+            let listItem = document.createElement("li");
+            listItem.textContent = `Item ${j}`;
+            whileLoopListElement.appendChild(listItem);
+            j++;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <script>
+        function checkAge() {
+          const userAge = parseInt(document.getElementById('userAge').value);
+    
+          if (isNaN(userAge) || userAge < 0) {
+            
+            document.getElementById('message').textContent = "Please enter a valid age.";
+            return;
+          }
+          if (userAge > 15) {
+    
+            window.location.href = "https://www.google.com";
+          } else {
+            document.getElementById('message').textContent = "You are not allowed.";
+          }
+        }
+      </script>
+    <style>
+.login{
+    background-color:cornflowerblue;
+    height:200px;
+    width: 200px;
+    border-radius:18px;
+
+}
+
+.background{
+    background-color:rgb(243, 163, 203);
+    height: 220px;
+    width:220px;
+    border-radius:18px ;
+    
+}
+.username{
+
+    text-align: center;
+}
+.password
+{
+    text-align:center ;
+}   
+ </style>
+</head>
+<body>
+    <input type="number" id="userAge" placeholder="Enter your age" style="border-radius: 4px;border-width: 1px;height: 19px;">
+  <br>
+  <button onclick="checkAge()" style="margin-top: 5px; box-shadow: 3px 3px 5px rgba(0,0,0,0.6);">Submit</button>
+  <p id="message"></p>
+
+  
+   <div class="background">
+    <div class="login">
+        <h3 style="text-align: center;">Login</h3>
+        <br>
+        <div class="username">
+            <label for="username">
+                <input type="text"; name="username"; placeholder="username"; id="user">
+            </label>
+        </div>
+        <br><br>
+        <div class="password">
+            <label for="password">
+                <input type="password"; name="password"; placeholder="password"; id="pass"; min length="10"; max length="14">
+            </label>
+        </div>
+       <div class="age">
+        <label for="password">
+            
+            
+        </label>
+       </div>
+       <a href="https://www.google.com"> <small style="margin-left: 49px;">forget password?</small></a>
+        <br><br>
+        <button style="margin-left: 48px; cursor: pointer; border-radius: 2px ;border:none;background-color: rgb(239, 216, 185);">login</button>
+        <button style="cursor: pointer;border: none; border-radius: 2px;background-color:antiquewhite;">Cancel</button>
+    </div>
+</div>
+</body>
+</html>

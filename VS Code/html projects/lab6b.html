@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name and Age Input</title>
+</head>
+<body>
+
+    <h1>Enter Name and Age</h1>
+
+    <form id="inputForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" >
+        <br>
+
+        <button type="button" onclick="validateInput()">Submit</button>
+    </form>
+
+    <script>
+        function validateInput() {
+            var name = document.getElementById("name").value;
+            var age = parseInt(document.getElementById("age").value);
+
+            if (name.trim() === "" || isNaN(age) || age < 15 || age > 40) {
+                alert("Please provide valid name and age between 15 and 40.");
+            } else if (age < 15) {
+                alert("Underage");
+            } else if (age > 40) {
+                alert("Overage");
+            } else {
+                alert("Input is valid: Name - " + name + ", Age - " + age);
+                // You can add further actions or submit the form here.
+            }
+        }
+    </script>
+
+</body>
+</html>

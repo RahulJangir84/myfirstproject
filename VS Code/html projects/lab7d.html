@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        input, button {
+            margin: 5px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="display" readonly>
+    <br>
+    <button onclick="appendNumber('1')">1</button>
+    <button onclick="appendNumber('2')">2</button>
+    <button onclick="appendNumber('3')">3</button>
+    <button onclick="setOperation('+')">+</button>
+    <br>
+    <button onclick="appendNumber('4')">4</button>
+    <button onclick="appendNumber('5')">5</button>
+    <button onclick="appendNumber('6')">6</button>
+    <button onclick="setOperation('-')">-</button>
+    <br>
+    <button onclick="appendNumber('7')">7</button>
+    <button onclick="appendNumber('8')">8</button>
+    <button onclick="appendNumber('9')">9</button>
+    <button onclick="setOperation('*')">*</button>
+    <br>
+    <button onclick="appendNumber('0')">0</button>
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="calculateResult()">=</button>
+    <button onclick="setOperation('/')">/</button>
+
+    <script>
+        let currentInput = '';
+        let currentOperation = null;
+        let previousResult = null;
+
+        function appendNumber(number) {
+            currentInput += number;
+            updateDisplay();
+        }
+
+        function setOperation(operation) {
+            if (currentInput !== '') {
+                if (previousResult !== null) {
+                    calculateResult();
+                } else {
+                    previousResult = parseFloat(currentInput);
+                }
+                currentInput = '';
+                currentOperation = operation;
+            }
+        }
+
+        function calculateResult() {
+            if (currentInput !== '' && currentOperation !== null) {
+                const currentValue = parseFloat(currentInput);
+                switch (currentOperation) {
+                    case '+':
+                        previousResult += currentValue;
+                        break;
+                    case '-':
+                        previousResult -= currentValue;
+                        break;
+                    case '*':
+                        previousResult *= currentValue;
+                        break;
+                    case '/':
+                        if (currentValue !== 0) {
+                            previousResult /= currentValue;
+                        } else {
+                            alert("Cannot divide by zero!");
+                        }
+                        break;
+                }
+                currentInput = '';
+                currentOperation = null;
+                updateDisplay();
+            }
+        }
+
+        function clearDisplay() {
+            currentInput = '';
+            currentOperation = null;
+            previousResult = null;
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            document.getElementById('display').value = currentInput !== '' ? currentInput : previousResult !== null ? previousResult : '0';
+        }
+    </script>
+
+</body>
+</html>

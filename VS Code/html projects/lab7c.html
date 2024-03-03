@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="frm1">
+    <label for="First Name ">First Name:</label>
+    <input type="text" id="firstName"><br>
+
+    <label for="Last Name"> Last Name:</label>
+    <input type="text" id="lastName"><br>
+
+    <label for="Age">Age:</label>
+    <input type="tel" id="number1"><br>
+
+    <label for="Number">Number:</label>
+    <input type="number" id="number2"><br>
+
+    <label for="country">Country:</label>
+    <input type="text" id="countryname"><br>
+
+    <button type="button" onclick="result()">Submit</button>
+</form>
+
+<p id="result"></p>
+    <script>
+        function result(){
+         let firstName= document.getElementById("firstName").value;
+         let lastName= document.getElementById("lastName").value;
+         let age= document.getElementById("number1").value;
+         let Number= document.getElementById("number2").value;
+         let countryname= document.getElementById("countryname").value;
+        let resultElement= document.getElementById("result");
+        resultElement.innerHTML= "First Name: " + firstName + "<br>" +
+                                 "last Name: " + lastName + "<br>" +
+                                 "age: " + age + "<br>" +
+                                 "Number: " + Number + "<br>" +
+                                 "Country: " + country;
+
+        }
+
+    </script>
+</body>
+</html>
