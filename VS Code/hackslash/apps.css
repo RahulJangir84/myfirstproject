@@ -160,6 +160,37 @@ p {
 .desc3{
     font-size: 1.2rem;
 }
+@keyframes upset{
+    0%{
+        opacity: 0.2;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+.main-content{
+    animation-name: upset;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;   
+
+}
+.below1{
+    animation-name: upset;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.below2{
+    animation-name: upset;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;
+}
+.below3{
+    animation-name: upset;
+    animation-duration: 2.7s;
+    animation-iteration-count: 1;
+}
 
 
 

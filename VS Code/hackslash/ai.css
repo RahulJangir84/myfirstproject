@@ -195,3 +195,44 @@ body{
     margin-left: 8rem;
     font-size: 0.9rem;
 }
+@keyframes upset{
+    0%{
+        opacity: 0.2;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.photo1{
+    animation-name: upset;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;   
+
+}
+.photo2{
+    animation-name: upset;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.first{
+    animation-name: upset;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;
+}
+.second{
+    animation-name: upset;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
+}
+.content1{
+    animation-name: upset;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
+}
+.content2{
+    animation-name: upset;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
+}

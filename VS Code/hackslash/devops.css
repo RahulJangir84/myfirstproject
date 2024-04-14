@@ -231,6 +231,54 @@ margin-top: 3rem;
 a{
     text-decoration: none;
 }
+@keyframes upset{
+    0%{
+        opacity: 0.2;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+     }
+}
+.devops{
+    animation-name: upset;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;   
+
+}
+@keyframes downset{
+    0%{
+        opacity: 0.2;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+.FIRST{
+    animation-name: downset;
+    animation-duration: 2.7s;
+    animation-iteration-count: 1;   
+
+}
+@keyframes RIGHTset{
+    0%{
+        opacity: 0.2;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+.SECOND{
+    animation-name: RIGHTset;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;   
+
+}
 
 
 

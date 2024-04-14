@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+              $(".hide").click(function(){
+                $(".first").slideUp();
+              });
+              $(".show").click(function(){
+                $(".first").slideDown(1000);
+              });
+        });
+    </script>
+</head>
+<body>
+    <p class="first">this is the first paragraph</p>
+    <button class="hide">hide</button>
+    <button class="show">show</button>
+</body>
+</html>

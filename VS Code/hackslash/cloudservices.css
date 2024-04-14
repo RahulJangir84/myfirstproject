@@ -146,3 +146,39 @@ margin-top: 6rem;
 .description{
     display: flex;
 }
+@keyframes upset{
+    0%{
+        opacity: 0.2;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+@keyframes downset{
+    0%{
+        opacity: 0.2;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+.photo1{
+    animation-name: downset;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;   
+
+}
+.photo2{
+    animation-name: upset;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+}
+.photo3{
+    animation-name: downset;
+    animation-duration: 2.7s;
+    animation-iteration-count: 1;
+}

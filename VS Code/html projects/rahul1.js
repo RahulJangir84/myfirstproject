@@ -28,7 +28,25 @@
 //     result= "number is not a multiple of 5"
 // }
 // console.log(result);
-let sum=0;
-for( let i=0;i<=5;i++){
-    console.log("i =",i);
-}
+// let sum=0;
+// for( let i=0;i<=5;i++){
+//     console.log("i =",i);
+// }
+
+// function myFunction(){
+//     console.log("welcome to my room");
+// }
+
+// myFunction();
+  
+// let text="pat ";
+// function myFunction(number,text){
+//  alert( number + "" + text);
+//  myFunction ("5" , "nit patna");
+    
+// }
+
+// myFunction();
+cars=["volvo", "scania" , "mercedes"];
+document.getElementById("demo").innerHTML= cars.sort();
+// alert(cars.length);
