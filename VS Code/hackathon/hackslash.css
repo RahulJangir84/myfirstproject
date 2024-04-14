@@ -293,7 +293,7 @@ a{
     border-radius: 4px;
     transition: background-color 0.4s ;
 }
-.member2:hover, .member1:hover ,.member3:hover, .member4:hover, .member5:hover{
+.member2:hover, .member1:hover ,.member3:hover, .member4:hover, .member5:hover, .member6:hover{
     background-color: rgb(207, 207, 207);
     cursor: pointer;
 }
@@ -314,6 +314,7 @@ a{
 
 .memberslist{
     display: flex;
+    
 }
 
 
@@ -387,4 +388,90 @@ a{
     font-size: 14px;
     font-family: roboto slab;
     padding-bottom: 10px;
+}
+
+
+.member6{
+    width: 229px;
+    margin-left: 49px;
+    text-align: center;
+    margin-top: 35px;
+    border-radius: 4px;
+    margin-left: 70px;
+}
+
+.name6{
+    font-size: 18px;
+    font-weight: 445;
+    font-family: roboto slab;
+    padding-top: 14px;
+}
+.image6{
+    border-radius: 50%;
+}
+.skill6{
+    font-size: 14px;
+    font-family: roboto slab;
+    padding-bottom: 10px;
+}
+
+.reviews{
+    margin-top: 33px;
+    margin-left: 84px;
+    
+}
+.review{
+    width: 869px;
+    padding-bottom: 221px;
+    padding-top: 12px;
+    padding-left: 18px;
+    font-size: 18px;
+    font-family: roboto slab;
+    border-radius: 12px;
+    background-color: rgb(235, 235, 235);
+    
+    
+}
+
+.submit{
+    margin-left: 86px;
+    margin-top: 20px;
+    padding: 6px 17px 8px 17px;
+    font-size: 18px;
+    border-radius: 4px;
+   border: none;
+    background-color: rgb(108, 219, 108);
+    font-family: roboto slab;
+    
+}
+.submit:hover{
+    background-color:rgb(231, 255, 247);
+    cursor: pointer ;
+    color:  rgb(31, 204, 31);
+}
+.cancel{
+    margin-left: 26px;
+    margin-top: 20px;
+    padding: 6px 17px 8px 17px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(254, 77, 77);
+    color: aliceblue;
+    font-family: roboto slab;
+    transition: all 0.2s;
+    border: none;
+}
+.cancel:hover{
+    color:  rgb(254, 77, 77);
+    cursor: pointer;
+    background-color: rgb(219, 235, 249);
+    
+}
+
+.Review{
+    margin-left: 86px;
+    margin-top: 43px;
+    font-size: 26px;
+font-family: roboto slab;
+font-weight: 440;
 }

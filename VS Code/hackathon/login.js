@@ -1,7 +1,7 @@
 let loginInput = querySelector("#email").href;
 let loginPassword = querySelector("#password").href;
 
-addEventListener(("input"),(event) =>{
+document.addEventListener(("input"),(event) =>{
   if( loginInput == admingmail.com && loginPassword == adminpassword)
     {
     Window.location.href="http://127.0.0.1:5500/hackathon/firstpage.html";
